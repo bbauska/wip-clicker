@@ -19,17 +19,3 @@ function count() {
 document.addEventListener('DOMContentLoaded', function(){
   document.getElementById('clicker').onclick = count;
 })
-<!-- next import from JSConfetti.js -->
-import JSConfetti from 'js-confetti'
-const jsConfetti = new JSConfetti()
-
-showConfetti({
-  emojis: ['🥩'],
-  emojiSize: 100,
-  confettiNumber: 30,
-})
-
-// ... 
-jsConfetti.clearCanvas()
-
-
