@@ -27,7 +27,7 @@ body {
   }
 #clicker:hover {
   animation-name: grow;
-  animation-duration: 60s;
+  animation-duration: 20s;  /* 60s */
   }
 #number {
   color: black;
